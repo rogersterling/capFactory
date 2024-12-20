@@ -7,7 +7,7 @@ pc = Pinecone(api_key='pcsk_5BWbPv_EqBeDwGw8cuSFHZeMDaPMb9hhG5BNzKKmRyWu9PnbqvvC
 assistant = pc.assistant.Assistant(assistant_name="PitchBot")
 
 # Set page title
-st.title("PitchBot Assistant")
+st.title("PitchBot Chat")
 
 # Initialize chat history
 if "messages" not in st.session_state:
